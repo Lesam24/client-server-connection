@@ -1,4 +1,4 @@
-# Client- Server Connection
+# Client-Server Connection
 
 A multi-threaded client-server application written in Java that demonstrates TCP socket communication for multiplayer games such as Chess.
 
@@ -23,7 +23,7 @@ The project uses a thread-per-client model, allowing the server to manage multip
 - Cross-platform (Windows, Linux, and macOS)
 - Easy to extend for multiplayer games
 
-### Future explansion:
+### Future expansion:
 - Graphical User Interface (GUI)
 
 ---
@@ -38,9 +38,9 @@ ClientServerConnection/
 │   │
 │   ├── network/
 │   │
-│   ├── Protocol/
+│   ├── protocol/
 │   │
-│   └── Server/
+│   └── server/
 │
 └── logs.txt
 ```
@@ -72,7 +72,7 @@ mkdir bin
 Compile all source files:
 
 ```cmd
-javac -d bin src\client\*.java src\network\*.java src\Protocol\*.java src\Server\*.java
+javac -d bin src\client\*.java src\network\*.java src\protocol\*.java src\server\*.java
 ```
 
 ---
@@ -101,24 +101,24 @@ find src -name "*.java" | xargs javac -d bin
 
 The server must be started before clients connect.
 
-## Start the Server
+## Start the server
 
 ### Windows
 
 ```cmd
-java -cp bin Server.ChatServer
+java -cp bin server.ChatServer
 ```
 
 ### Linux/macOS
 
 ```bash
-java -cp bin Server.ChatServer
+java -cp bin server.ChatServer
 ```
 
 Expected output:
 
 ```
-Server started...
+server started...
 Waiting for clients...
 ```
 
