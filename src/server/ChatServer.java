@@ -1,4 +1,4 @@
-package Server;
+package server;
 
 import network.SocketServer;
 import java.io.BufferedReader;

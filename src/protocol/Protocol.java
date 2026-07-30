@@ -1,4 +1,4 @@
-package Protocol;
+package protocol;
 
 public final class Protocol {
     public static final String SAY = "SAY";

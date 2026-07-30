@@ -1,7 +1,7 @@
 package client;
 
 import network.SocketConnection;
-import Protocol.Protocol;
+import protocol.Protocol;
 import java.io.IOException;
 import java.net.InetAddress;
 
